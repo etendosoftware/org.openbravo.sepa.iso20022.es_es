@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<compiereTrl baseLanguage="en_US" language="es_ES" table="AD_REFERENCE" version="">
+  <row id="0FCDBF5CF8324825A387D300F06D2BA0" trl="Y">
+    <value column="Name" isTrl="Y" original="SEPA Location">Dirección SEPA</value>
+    <value column="Description" isTrl="Y" original="Location/Address popup extended with SEPA structured address fields (StrtNm/BldgNb/BldgNm)">Ventana emergente de ubicación/dirección ampliada con los campos de dirección estructurada SEPA (StrtNm/BldgNb/BldgNm)</value>
+    <value column="Help" isTrl="N" original=""/>
+  </row>
+</compiereTrl>
