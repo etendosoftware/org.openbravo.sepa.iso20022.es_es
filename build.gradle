@@ -1,0 +1,56 @@
+/**
+*   This file was generated automatically by the 'createModuleBuild' task.
+*   Created at: 2026-10-09T18:33:23.292706Z.
+*
+*   WARNING: Do not put your credentials directly in this file.
+*
+*/
+
+group          = "org.openbravo"
+version        = "1.0.0"
+description    = "Módulo que provee la infraestructura y utilidades para desarrollar módulos relacionados con SEPA"
+ext.artifact   = "sepa.iso20022.es_es"
+ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.localization.spain.extensions"
+
+configurations {
+    moduleDependencyContainer
+}
+
+publishing {
+    publications {
+        "org.openbravo.sepa.iso20022.es_es"(MavenPublication) {
+            from components.java
+            groupId    = group
+            artifactId = artifact
+            version    = version
+        }
+    }
+    repositories {
+        maven {
+            url = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.localization.spain.extensions"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.localization.spain.extensions"
+    }
+    maven {
+        url = "https://repo.futit.cloud/repository/maven-releases"
+    }
+    maven {
+        url = "https://repo.futit.cloud/repository/maven-public-releases"
+    }
+    maven {
+        url = "https://repo.futit.cloud/repository/maven-public-jars"
+    }
+}
+
+/**
+* Declare Java dependencies using 'implementation'
+* Ex: implementation "com.sun.mail:javax.mail:1.6.2"
+*/
+dependencies {
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<compiereTrl baseLanguage="en_US" language="es_ES" table="AD_MESSAGE" version="">
+  <row id="0E5F7745DCE7457FA7D03FCE2F1F19B4" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The address of organization %s does not have the City and the Country that SEPA always requires. Fill them in at the &lt;a class='LabelLink' href='#' onclick='OB.Utilities.openDirectTab(&quot;170&quot;, &quot;%s&quot;); return false;'&gt;Organization window&lt;/a&gt;.">La dirección de la organización %s no tiene informados la Localidad y el País que SEPA exige. Infórmelos en la &lt;a class='LabelLink' href='#' onclick='OB.Utilities.openDirectTab("170", "%s"); return false;'&gt;ventana Organización&lt;/a&gt;.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="10B2B224BE09444C8FC6A68FE2B0887F" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The BIC (SWIFT) format defined for account %s belonging to %s business partner does not have the correct format, make sure that the value %s is correct.">El formato del BIC (SWIFT) definido para la cuenta %s del tercero %s no es correcto; asegúrese de que el valor %s es correcto.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="15B9440F1708489EA7A4F464FFCF0C1E" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Missing bank account for business partner %s in line no. %s">Falta la cuenta bancaria del tercero %s en la línea nº %s</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="1E4078E13C2340F69D18C4CD666625FD" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Error generating XMLGregorianCalendar from date %s">Error al generar el XMLGregorianCalendar a partir de la fecha %s</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="40625EE7927245A4A9E077D65C72C1EC" trl="Y">
+    <value column="MsgText" isTrl="Y" original="No BIC (SWIFT) defined for financial account %s. It's recommended to fill the BIC (SWIFT) code or, alternatively, you can set the BIC_SWIFT_MANDATORY parameter to N into the remittance type configuration. Do the latter only in case your bank allows to leave the BIC code information blank, otherwise the file will be rejected by your bank.">No hay ningún BIC (SWIFT) definido para la cuenta financiera %s. Se recomienda informar el código BIC (SWIFT) o, como alternativa, puede poner a N el parámetro BIC_SWIFT_MANDATORY en la configuración del tipo de remesa. Haga esto último solo si su banco permite dejar en blanco la información del código BIC; de lo contrario, su banco rechazará el fichero.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="42972A2C1BD447EBB7C810193756B92E" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The BIC (SWIFT) format defined for the financial account %s does not have the correct format, make sure that the value %s is correct.">El formato del BIC (SWIFT) definido para la cuenta financiera %s no es correcto; asegúrese de que el valor %s es correcto.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="4423CD636CC54D05B0D3590504CE1A91" trl="Y">
+    <value column="MsgText" isTrl="Y" original="No BIC (SWIFT) defined for account %s belonging to %s business partner. It's recommended to fill the BIC (SWIFT) code or, alternatively, you can set the BIC_SWIFT_MANDATORY parameter to N into the remittance type configuration. Do the latter only in case your bank allows to leave the BIC code information blank, otherwise the file will be rejected by your bank.">No hay ningún BIC (SWIFT) definido para la cuenta %s del tercero %s. Se recomienda informar el código BIC (SWIFT) o, como alternativa, puede poner a N el parámetro BIC_SWIFT_MANDATORY en la configuración del tipo de remesa. Haga esto último solo si su banco permite dejar en blanco la información del código BIC; de lo contrario, su banco rechazará el fichero.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="4DE8FEA45D9749FD8EBA879A4E0023A2" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Error while marshalling the Remittance SEPA XML file">Error al serializar el fichero XML SEPA de la remesa</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="5573936718FC45B3A03A2C2079574839" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The address of organization %s does not have the Street Name and Building Number required by the SEPA structured address. Fill them in at the &lt;a class='LabelLink' href='#' onclick='OB.Utilities.openDirectTab(&quot;170&quot;, &quot;%s&quot;); return false;'&gt;Organization window&lt;/a&gt;.">La dirección de la organización %s no tiene el Nombre de la calle y el Número de edificio que exige la dirección estructurada SEPA. Infórmelos en la &lt;a class='LabelLink' href='#' onclick='OB.Utilities.openDirectTab("170", "%s"); return false;'&gt;ventana Organización&lt;/a&gt;.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="5FB111E62BAD49A1B61361804039FB98" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The Business Partner %s doesn't have a valid tax id. You can defined it at the Business Partner window">El tercero %s no tiene un CIF/NIF válido. Puede definirlo en la ventana Tercero</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="622D4AA2398443E19EECA44A66F335FD" trl="Y">
+    <value column="MsgText" isTrl="Y" original="No IBAN defined for financial account %s">No hay ningún IBAN definido para la cuenta financiera %s</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="678695C164A44792B608A13FA5F1040D" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The address of business partner %s does not have the City and the Country that SEPA always requires.">La dirección del tercero %s no tiene informados la Localidad y el País que SEPA exige siempre.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="712EBA94291D4AC793AC673CCA8A7950" trl="Y">
+    <value column="MsgText" isTrl="Y" original="No address defined for organization %s">No hay ninguna dirección definida para la organización %s</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="86DF1A680AC94782966181885BC46150" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Error while executing the SEPA hook: %s">Error al ejecutar el hook SEPA: %s</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="A8698E0B5F9846D385F57E84D75243F4" trl="Y">
+    <value column="MsgText" isTrl="Y" original="SEPA only works for financial accounts in EUR">SEPA solo funciona con cuentas financieras en EUR</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="AA7362E208FA427A85A1BB1670EE38EF" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Error calculating IBAN for business partner %s and account no. %s. Please manually provide the IBAN for this business partner.">Error al calcular el IBAN del tercero %s y la cuenta nº %s. Informe manualmente el IBAN de este tercero.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="B04E1B4CA509490BA2F1442DED80C38C" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Error calculating control digits for country ISO code %s and Tax ID %s">Error al calcular los dígitos de control para el código ISO de país %s y el CIF/NIF %s</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="C564040653FF4D0B954406F0383E4A2A" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Unable to generate IBAN for account %s belonging to %s. Please specify the business partner's bank country">No se ha podido generar el IBAN de la cuenta %s perteneciente a %s. Indique el país del banco del tercero</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="CCE5FC6AE84A429FBB6BF0D96EE58EE8" trl="Y">
+    <value column="MsgText" isTrl="Y" original="Fill them in at the &lt;a class='LabelLink' href='#' onclick='OB.Utilities.openDirectTab(&quot;222&quot;, &quot;%s&quot;); return false;'&gt;Business Partner window&lt;/a&gt;.">Infórmelos en la &lt;a class='LabelLink' href='#' onclick='OB.Utilities.openDirectTab("222", "%s"); return false;'&gt;ventana Tercero&lt;/a&gt;.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="D19E54307DA141639A6FC08AE4843F0C" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The Organization %s doesn't have a valid tax id. You can defined it at the Organization window, Information tab">La organización %s no tiene un CIF/NIF válido. Puede definirlo en la ventana Organización, pestaña Información</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="DFF4E072C05C4A9B912728EC64B72C0A" trl="Y">
+    <value column="MsgText" isTrl="Y" original="No IBAN defined for account %s belonging to %s business partner. Set the &quot;GENERATE_BUSINESSPARTNER_IBAN&quot; remittance type parameter to Y to generate the IBAN on the fly">No hay ningún IBAN definido para la cuenta %s del tercero %s. Ponga a Y el parámetro "GENERATE_BUSINESSPARTNER_IBAN" del tipo de remesa para generar el IBAN al momento</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+  <row id="E4A3AB8C0CE9495580A40D115FC6C8AF" trl="Y">
+    <value column="MsgText" isTrl="Y" original="The address of business partner %s is outside the European Union and does not have the Street Name and Building Number that SEPA requires in that case.">La dirección del tercero %s está fuera de la Unión Europea y no tiene el Nombre de la calle y el Número de edificio que SEPA exige en ese caso.</value>
+    <value column="MsgTip" isTrl="N" original=""/>
+  </row>
+</compiereTrl>

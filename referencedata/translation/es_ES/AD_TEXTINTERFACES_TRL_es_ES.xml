@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<compiereTrl baseLanguage="en_US" language="es_ES" table="AD_TEXTINTERFACES" version="">
+  <row id="0ACF9727326A43F9B18F41CB98B4AA92" trl="Y">
+    <value column="Text" isTrl="Y" original="Street Name">Nombre de calle</value>
+  </row>
+  <row id="0E8F8F5BA9DC4994B1FDC938F12FD706" trl="Y">
+    <value column="Text" isTrl="Y" original="Location selector actions">Acciones del selector de dirección</value>
+  </row>
+  <row id="2EC74E8863F94E2999BC1646B9262161" trl="Y">
+    <value column="Text" isTrl="Y" original="2nd line">Línea 2ª</value>
+  </row>
+  <row id="32042689769F4FC9B168ACD2EE0ED0DC" trl="Y">
+    <value column="Text" isTrl="Y" original="Postal code">Código Postal</value>
+  </row>
+  <row id="78FF517E28B64D2BBE1BEA8CD0AB638C" trl="Y">
+    <value column="Text" isTrl="Y" original="Building Name">Edificio</value>
+  </row>
+  <row id="8A847807746A4B209684BCEA1506FFB3" trl="Y">
+    <value column="Text" isTrl="Y" original="1st line">Línea 1ª</value>
+  </row>
+  <row id="A8F3DE00755746BD8E4E538DB06F72BF" trl="Y">
+    <value column="Text" isTrl="Y" original="Building Number">Número</value>
+  </row>
+</compiereTrl>

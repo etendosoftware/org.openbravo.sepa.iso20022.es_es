@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<compiereTrl baseLanguage="en_US" language="es_ES" table="AD_ELEMENT" version="">
+  <row id="580A48D026974E1FAC957C4B9186DBA6" trl="Y">
+    <value column="Name" isTrl="Y" original="Building Name">Edificio</value>
+    <value column="PrintName" isTrl="Y" original="Building Name">Edificio</value>
+    <value column="Description" isTrl="Y" original="Optional building name for SEPA structured address (ISO 20022 BldgNm)">Nombre del edificio, opcional, para la dirección estructurada SEPA (BldgNm de ISO 20022)</value>
+    <value column="Help" isTrl="Y" original="Used to build the structured postal address (BldgNm) in SEPA ISO 20022 remittance files when present">Se utiliza para construir la dirección postal estructurada (BldgNm) en los ficheros de remesa SEPA ISO 20022 cuando está informado</value>
+    <value column="PO_Description" isTrl="N" original=""/>
+    <value column="PO_Help" isTrl="N" original=""/>
+    <value column="PO_Name" isTrl="N" original=""/>
+    <value column="PO_PrintName" isTrl="N" original=""/>
+  </row>
+  <row id="7F357A8D2F5148B8919C791A2DECC3E3" trl="Y">
+    <value column="Name" isTrl="Y" original="Street Name">Nombre de calle</value>
+    <value column="PrintName" isTrl="Y" original="Street Name">Nombre de calle</value>
+    <value column="Description" isTrl="Y" original="Street name, without the building number, for SEPA structured address (ISO 20022 StrtNm)">Nombre de la calle, sin el número de edificio, para la dirección estructurada SEPA (StrtNm de ISO 20022)</value>
+    <value column="Help" isTrl="Y" original="Used to build the structured postal address (StrtNm) in SEPA ISO 20022 remittance files">Se utiliza para construir la dirección postal estructurada (StrtNm) en los ficheros de remesa SEPA ISO 20022</value>
+    <value column="PO_Description" isTrl="N" original=""/>
+    <value column="PO_Help" isTrl="N" original=""/>
+    <value column="PO_Name" isTrl="N" original=""/>
+    <value column="PO_PrintName" isTrl="N" original=""/>
+  </row>
+  <row id="FB236BEF904C4CC7A17D415283DC8FFE" trl="Y">
+    <value column="Name" isTrl="Y" original="Building Number">Número</value>
+    <value column="PrintName" isTrl="Y" original="Building Number">Número</value>
+    <value column="Description" isTrl="Y" original="Building number for SEPA structured address (ISO 20022 BldgNb)">Número de edificio para la dirección estructurada SEPA (BldgNb de ISO 20022)</value>
+    <value column="Help" isTrl="Y" original="Used to build the structured postal address (BldgNb) in SEPA ISO 20022 remittance files">Se utiliza para construir la dirección postal estructurada (BldgNb) en los ficheros de remesa SEPA ISO 20022</value>
+    <value column="PO_Description" isTrl="N" original=""/>
+    <value column="PO_Help" isTrl="N" original=""/>
+    <value column="PO_Name" isTrl="N" original=""/>
+    <value column="PO_PrintName" isTrl="N" original=""/>
+  </row>
+</compiereTrl>
