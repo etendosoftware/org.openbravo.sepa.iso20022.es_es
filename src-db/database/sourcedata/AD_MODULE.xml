@@ -6,7 +6,7 @@
 <!--BAB5E2705AD84D599E05D6207004EB71-->  <AD_ORG_ID><![CDATA[0]]></AD_ORG_ID>
 <!--BAB5E2705AD84D599E05D6207004EB71-->  <ISACTIVE><![CDATA[Y]]></ISACTIVE>
 <!--BAB5E2705AD84D599E05D6207004EB71-->  <NAME><![CDATA[Infraestructura y Utilidades SEPA]]></NAME>
-<!--BAB5E2705AD84D599E05D6207004EB71-->  <VERSION><![CDATA[1.0.0]]></VERSION>
+<!--BAB5E2705AD84D599E05D6207004EB71-->  <VERSION><![CDATA[1.1.0]]></VERSION>
 <!--BAB5E2705AD84D599E05D6207004EB71-->  <DESCRIPTION><![CDATA[Módulo que provee la infraestructura y utilidades para desarrollar módulos relacionados con SEPA]]></DESCRIPTION>
 <!--BAB5E2705AD84D599E05D6207004EB71-->  <HELP><![CDATA[Este módulo sólo debería instalarse como dependencia de otros módulos ya que no contiene funcionalidad propia útil para el usuario final.]]></HELP>
 <!--BAB5E2705AD84D599E05D6207004EB71-->  <TYPE><![CDATA[M]]></TYPE>
